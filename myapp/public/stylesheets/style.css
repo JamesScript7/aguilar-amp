@@ -1,0 +1,48 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+	font-size: 16px;
+
+}
+
+div {
+	border: grey dotted 1px;
+}
+
+
+
+
+/* BOTTOM HALF OF THE PAGE */
+
+#nav-box {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.product-box {
+	padding-left: 0;
+}
+
+.product-box li {
+	width: 200px;
+	display: inline-block;
+	list-style-type: none;
+}
+
+
+/* COMPANY INFO */
+
+#footer {
+	text-align: center;
+}
+
+.info {
+	padding-left: 0;
+}
+
+.info li {
+	font-size: .8em;
+	display: inline-block;
+	padding: 10px;
+	list-style-type: none;
+}
