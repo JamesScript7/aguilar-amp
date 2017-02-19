@@ -6,6 +6,8 @@
 	</title>
 
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
 
@@ -16,43 +18,61 @@
 
 <body>
 	<!-- Website navigation -->
-	<header class="wrapper-header">
-		<div class="wrapper-header-inner">
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#"><img src="images/home_nav_logo.jpeg" /></a>
+	    </div>
 
-			<a class="ag-logo" title="Go to homepage" href="http://aguilaramp.com/">
-				<span class="logo-pic"></span>
-			</a>
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Bass Amps</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Cabinets</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Effect Pedals</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Pickups</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Preamps</a></li>
+	          </ul>
+	        </li>
+	        <li><a href="#">Artists</a></li>
+	        <li><a href="#">About</a></li>
+	        <li><a href="#">Contact</a></li>
+	      </ul>
 
-			<div class="header-menu">
-				<ul class="navbar">
-					<li>
-						<a href="/products">Products</a>
-					</li>
-					<li>
-						<a href="/artists">Artists</a>
-					</li>
-					<li>
-						<a href="/about">About</a>
-					</li>
-				</ul>
-				<ul>
-					<li>
-						<form class="search-form" action="/search-page" method="POST">
-							<input type="text" name="search" placeholder="Search Aguilar">
-							<button class="btn">Q</button>
-						</form>
-					</li>
-					<li>
-						<a href="/contact">Contact</a>
-					</li>
-					<li>
-						<a href="/shop">Shop</a>
-					</li>
-				</ul>
-			</div>
+	      <ul class="nav navbar-nav navbar-right">
+		      <form class="navbar-form navbar-left">
+		        <div class="form-group">
+		          <input type="text" class="form-control" placeholder="Search Aguilar">
+		        </div>
+		        <button type="submit" class="btn btn-default btn-sm">
+		        	<span class="glyphicon glyphicon-search"></span>
+		        </button>
+		      </form>
+		      <li><a href="#" class="focus">Shop</a></li>
+	        <li>
+		        <a href="#">
+		        	<span class="glyphicon glyphicon-shopping-cart rt-margin"><span>
+		        </a>
+	        </li>
+	      </ul>
 
-		</div>
-	</header>
+	    </div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
 
 	<!-- Fixed social media buttons -->
 	<!-- <div id="social-media">
@@ -102,25 +122,47 @@
 	</div>
 
 
-	<div id="nav-box">
-		<ul class="product-box">
-			<li>Pickups/Preamps</li>
-			<li>Effects Pedals</li>
-			<li>Bass Amps</li>
-			<li>Cabinets</li>
-		</ul>
+	<div class="container marg-top">
+
+		<div class="row">
+			<div class="col-sm-6 home-products1 intro">
+					<p>Pickups/Preamps</p>
+			</div>
+			<div class="col-sm-6 home-products2 intro">
+					<p>Effects Pedals</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-6 home-products3 intro">
+				<p>Bass Amps</p>
+			</div>
+			<div class="col-sm-6 home-products4 intro">
+					<p>Cabinets</p>
+			</div>
+		</div>
+
 	</div>
 
 
 
+
+
+
+
+
 	<!-- Company Info -->
-	<div id="footer" class="dark">
+	<div id="footer">
 		<ul class="info">
 			<li>599 Broadway 7th Floor New York, NY 10012</li>
 			<li>Tel: +1 212 431 9109</li>
 			<li>info@aguilaramp.com</li>
-			<li>© 2011 Aguilar Amplification LLC. All rights reserved.</li>
 		</ul>
+		<div>
+			<p>
+				© 2011 Aguilar Amplification LLC. All rights reserved.
+			</p>
+		</div>
 	</div>
 
 	

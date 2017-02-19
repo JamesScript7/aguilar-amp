@@ -9,51 +9,57 @@ body {
 	font-size: 16px;
 }
 
-
-/*div {
-	border: grey dotted 1px;
-}*/
-/*
-.hero {
-	background-image: url('../images/Alissia-Benveniste.jpg');
-	background-size: cover;
-	position: relative;
-	width: 100%;
-	height: 100vh;
+.navbar-default .navbar-nav>li>a.focus {
+	color: crimson;
 }
 
-.hero .container #nav-box {
-	background-color: rgba(0, 0, 0, 0.1);
+.rt-margin {
+	margin-right: 10px;
 }
 
-.hero .container {
-	position: absolute;
-  top: 0;
-  text-align: center;
-  width: 100%;
-  color: #454545;
-  font-size: 32px;
-  background-color: rgba(0, 0, 0, 0.1);
-}*/
-
-
-
-/* BOTTOM HALF OF THE PAGE */
-
-#nav-box {
-	font-size: 20px;
-	text-align: center;
-	margin: 0 auto;
+.navbar {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
-.product-box {
-	padding-left: 0;
+.carousel {
+	margin-top: 40px;
 }
 
-.product-box li {
-	width: 200px;
-	display: inline-block;
-	list-style-type: none;
+.carousel-control.left {
+	background-image: linear-gradient(to right,rgba(0,0,0,.15) 0,rgba(0,0,0,.0001) 100%)
+}
+
+.carousel-control.right {
+	background-image: linear-gradient(to left,rgba(0,0,0,.15) 0,rgba(0,0,0,.0001) 100%)
+}
+
+.carousel-indicators li {
+	background-color: lightgrey;
+}
+
+.carousel-indicators li.active {
+	background-color: royalblue;
+}
+
+.marg-top {
+	margin-top: 50px;
+}
+
+.home-products1 {
+	background-color: aliceblue;
+}
+.home-products2 {
+	background-color: lightgreen;
+}
+.home-products3 {
+	background-color: pink;
+}
+.home-products4 {
+	background-color: orange;
+}
+
+.intro {
+	height: 300px;
 }
 
 
